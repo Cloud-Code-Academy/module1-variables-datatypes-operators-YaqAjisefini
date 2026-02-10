@@ -25,7 +25,6 @@ public class VariablesDataTypesOperatorsTest {
     static void testSubtraction() {
         Integer result = VariablesDataTypesOperators.subtraction(10, 5);
         Assert.areEqual(5, result, 'Incorrect subtraction result');
-
         result = VariablesDataTypesOperators.subtraction(-5, -10);
         Assert.areEqual(5, result, 'Incorrect negative subtraction result');
     }
@@ -34,7 +33,6 @@ public class VariablesDataTypesOperatorsTest {
     static void testMultiplication() {
         Integer result = VariablesDataTypesOperators.multiplication(5, 5);
         Assert.areEqual(25, result, 'Incorrect multiplication result');
-
         result = VariablesDataTypesOperators.multiplication(-5, 5);
         Assert.areEqual(-25, result, 'Incorrect negative multiplication result');
     }
